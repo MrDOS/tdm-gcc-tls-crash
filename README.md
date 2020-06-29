@@ -122,5 +122,9 @@ and not to the latest version.
 | MSVC                                     | ✔ | ✔ | ✔ | ✔ | ✔ |
 | TDM-GCC-64 5.1.0-2                       | ❌ | ✔ | ✔ | ✔ | ✔ |
 | TDM-GCC-64 9.2.0                         | ❌ | ✔ | ✔ | ✔ | ✔ |
-| MinGW-w64 ??? (GCC 8.1.0)                | ✔ | ✔ | ✔ | ✔ | ✔ |
+| MinGW-w64 ??? (GCC 8.1.0)\*               | ✔ | ✔ | ✔ | ✔ | ✔ |
 | MinGW-w64 5.0.3 (GCC 7.3.0), Ubuntu host | ✔ | ✔ | ✔ | ✔ | ✔ |
+
+\* This was installed from `x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z`.
+MinGW and GCC version numbers don't seem to line up,
+so I'm not sure what MinGW version this would be.
